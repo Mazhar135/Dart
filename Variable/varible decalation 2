@@ -1,0 +1,26 @@
+void main()
+{ 
+  // rules for declaring variables
+  // arithemic operation +, - , * , /
+
+  int numberOne;
+  int numberTwo;
+  int sum;
+  int subtract;
+  int multipleresult;
+  double divide;
+
+  numberOne = 10;
+  numberTwo = 5;
+
+  sum = numberOne + numberTwo;
+ subtract = numberTwo - numberOne;
+ multipleresult = numberOne * numberTwo;
+ divide = numberOne / numberTwo;
+
+
+  print(sum);
+  print(subtract);
+  print(multipleresult);
+  print(divide);
+}

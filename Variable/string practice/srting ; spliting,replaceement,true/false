@@ -1,0 +1,7 @@
+void main(){
+    String age = 'This is asif taj, subscribe';
+
+    print(age.split(''));  // this is used for spliting a letter with comma
+    print(age.replaceAll(age, 'abc'));  // this statement is used for replace the sentence of age with (abe)
+    print(age.contains('w'));  // here use boolen variabel (true/false)
+}

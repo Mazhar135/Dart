@@ -1,0 +1,9 @@
+import'person';
+void main()
+{
+  Person person = Person('John Doe', 30);
+
+  person.displayInfo();
+  print(person.name);
+}
+

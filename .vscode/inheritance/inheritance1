@@ -1,0 +1,37 @@
+
+
+void main()
+{
+ MacBook macbook = MacBook('Macbook', 1450, '14');
+
+ macbook.displayInfo();
+}
+//parent class
+class Laptop{
+  String brand;
+  double price;
+
+  //Constructor with parameters
+
+  Laptop(this.brand, this.price)
+  {
+    print('Laptop call');
+  }
+  void displayInfo(){
+    print('Brand; $brand, Price: $price');
+  }
+}
+
+class MacBook extends Laptop{
+  String model;
+  //constructor
+  // the super indcate the laptop
+  //first call the laptop constructor and also pass value
+  MacBook(String brand, double price, this.model) : super(brand, price);
+
+  void displayInfo()
+  {
+    super.displayInfo(); // call parent constructor
+    print('Model: $model');
+  }
+}

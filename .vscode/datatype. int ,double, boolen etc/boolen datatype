@@ -1,0 +1,13 @@
+void main(){
+  int  numberOne = 10;
+  int numberTwo = 20;
+
+  bool result = true;
+  bool isEven = false;
+
+  result = numberTwo < numberOne;
+ isEven = numberTwo / numberOne == 0;
+  print(result);
+
+  
+}

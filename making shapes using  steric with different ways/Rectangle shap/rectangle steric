@@ -1,0 +1,11 @@
+void main()
+{
+  print('Rectangle');
+
+  print('*  *  *  *  *  *  *  *');
+  print('*                    *');
+  print('*                    *');
+  print('*                    *');
+  print('*                    *');
+  print('*  *  *  *  *  *  *  *');
+}

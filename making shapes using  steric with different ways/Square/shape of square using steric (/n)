@@ -1,0 +1,5 @@
+void main()
+{
+  //write a dart program with square shape with steric (*) and also using end of line(\n)
+  print('*  *  *  *  * \n*           *\n*           *\n*           *\n*           *\n*           *\n*  *  *  *  *');
+}

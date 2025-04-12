@@ -1,0 +1,13 @@
+void main()
+{
+    String age = 'This is asif taj, subscribe';
+
+    print(age);
+    print(age.toUpperCase());   //In this step the alphabet of string is capital
+    print(age.toLowerCase()); // in this step the alphabet of string is small
+
+    print(age[2].toUpperCase()); // in these two step only value of age string is printed
+    print(age[11].toLowerCase());
+
+
+}

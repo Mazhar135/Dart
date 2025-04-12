@@ -1,0 +1,25 @@
+void main()
+{
+  // conversion of meter in to feet
+  //and conversion of feet in to meter
+  double feet;
+  double meter;
+  double conversion_meter;
+  double conversion_feet;
+
+   // one feet = 0.3048
+   // one meter = 3.28
+
+   meter = 8;
+   feet = 18;
+   
+   conversion_meter = feet / 3;
+   conversion_feet = meter * 3;
+
+   print('meter: $conversion_meter');
+   print('feet: $conversion_feet');
+
+
+
+
+}

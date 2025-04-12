@@ -1,0 +1,6 @@
+void main()
+{
+  double num;
+  print('Enter the first number ');
+  double(num
+}

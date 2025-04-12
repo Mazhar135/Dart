@@ -1,0 +1,26 @@
+void main()
+{
+  double celcius;
+  double fernhit;
+  double conversion_celcius;
+  double conversion_fernhit;
+
+  // celcius = 33.8 F
+  // fernhit = -17.22 C
+
+    celcius = 37;
+    fernhit = 3;
+
+    conversion_celcius = 33.8 * 37;
+    conversion_fernhit = -17.22 * 3;
+
+    print('Conversion of celcius to fernhit ');
+    print('$conversion_celcius C is equal to 37 F' );
+
+     print('Conversion of fernhit to celcius ');
+    print('$conversion_fernhit F is equal to 102 C' );
+
+
+
+
+}

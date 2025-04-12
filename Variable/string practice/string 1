@@ -1,0 +1,8 @@
+void main ()
+{
+  String age = 'HelloWorld';
+  String index = '0123456789';
+
+  print(age);
+
+}

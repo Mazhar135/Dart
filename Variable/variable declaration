@@ -1,0 +1,22 @@
+void main()
+{
+
+  // in this lwcture we will learn about variable
+  // how to declare variable
+
+  int number;  // this  how  we declare varible
+  number = 50; // this is how we intilize variable or we store data
+
+int numberTwo;
+int result;
+
+numberTwo = 40;
+numberTwo = -10;
+
+result = number + numberTwo;
+
+  print(number);
+  print(numberTwo);
+  print(result);
+
+}

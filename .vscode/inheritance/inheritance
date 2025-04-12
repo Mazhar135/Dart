@@ -1,0 +1,38 @@
+void main(){
+    //Overridden method in Car
+
+    Student student = Student();
+    student.age = 25;
+    student.regNumber = '12345';
+    student.sem = '7th';
+
+    student.displaySchoolInfo();
+}
+
+class Person
+{
+    //Properties
+
+    String? name;
+    int? age;
+
+    //Method
+    void display(){
+        print('Name: $name');
+        print('Age: $age');
+    }
+}
+
+//child derive
+
+class Student extends Person{
+    //Field
+    String? regNumber;
+    String? sem;
+
+    //Method
+    void displaySchoolInfo(){
+        print('Registration number: $regNumber ');
+        print('Semester: $sem');
+    }
+}

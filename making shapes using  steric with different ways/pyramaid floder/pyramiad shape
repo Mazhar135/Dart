@@ -1,0 +1,25 @@
+void main()
+{
+    print('1st way to make a pyramiad ');
+    print('           *              ');
+    print('         *   *             ');
+    print('       *   *   *         ');
+    print('     *   *   *   *        ');
+    print('    *  *   *   *  *      ');
+    print('   *  *  *   *  *  *         ');
+
+//using end for line(\n)to make a pyramiad
+   print('2nd way to make a  pyramiad\n');
+   print('       * \n      ***\n     *****\n    *******');
+
+   //using only use print for next line not use end of line
+  print('\n');
+  print('3rd way to make a pyramiad ');
+   print('    *   ');
+   print('   ***   ');
+   print('  *****  ');
+   print(' *******  ');
+   print('********* ');
+
+
+}

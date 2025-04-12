@@ -1,0 +1,10 @@
+void main(){
+
+    var data;
+    
+    data = [1,2,3];
+
+    print(data);
+    print(data[2]);
+
+}
