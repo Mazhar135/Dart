@@ -1,11 +1,8 @@
 void main() {
-  print('Hello, World!');
+  int num1 = 10;
+  int num2 = 5;
 
-  // Calling a function
-  greetUser('Alice');
-}
+  int sum = num1 + num2;
 
-// A simple function
-void greetUser(String name) {
-  print('Welcome, $name!');
+  print('The sum of $num1 and $num2 is $sum');
 }
